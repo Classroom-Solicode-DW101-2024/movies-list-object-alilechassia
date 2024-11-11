@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prj.css">
+</head>
+<body>
+    <div class="search">
+        <input type="text" id="searchInput" placeholder="Enter a title" />
+        <button id="searchButton">Search</button>
+    </div>
+
+    <div class="div1">
+        <button class="movie">Movies</button>
+        <button class="addmovie">Add Movie</button>
+    </div>
+
+    <br>
+
+    <table border="1">
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Date</th>
+            <th>Rating</th>
+            <th>Remove</th>
+        </tr>
+        <tbody id="tbodyMovie"></tbody>
+    </table>
+
+    <br><br>
+
+    <div class="container">
+        <form id="myForm">
+            <fieldset class="fieldset">
+                <legend class="legend"><u>Add a Movie</u></legend>
+                <label for="title">Titre:</label>
+                <input type="text" id="titre" placeholder="Enter a title"><br><br>
+                <label for="Description">Description:</label>
+                <input type="text" id="Description" placeholder="Enter a description"><br><br>
+                <label for="Date">Date:</label>
+                <input type="number" id="Date" placeholder="Enter the year"><br><br>
+                <label for="Rating">Rating:</label>
+                <input type="number" id="Rating" class="rating" placeholder="Rating"><br><br>
+                <button id="ajouter">Ajouter</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="prj.js"></script>
+</body>
+</html>

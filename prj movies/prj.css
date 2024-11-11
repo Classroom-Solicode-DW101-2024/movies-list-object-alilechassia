@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(247, 239, 239);
+}
+.div1 {
+    width: 10%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+}
+table {
+    margin: auto;
+    border-radius: 10px;
+}
+th {
+    background-color: rgb(175, 175, 175);
+}
+#ajouter {
+    width: 80px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(180, 180, 180);
+}
+#ajouter:hover {
+    background-color: rgb(175, 175, 175);
+}
+.legend {
+    text-align: center;
+    color: rgb(26, 24, 24);
+}
+.fieldset {
+    margin: auto;
+    border-radius: 15px;
+    width: 500px;
+    height: 205px;
+    background-color: rgb(247, 239, 239);
+}
+.rating {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.movie:hover {
+    background-color: rgb(247, 239, 239);
+}
+.addmovie:hover {
+    background-color: rgb(247, 239, 239);
+}
+#button {
+    background-color: rgb(247, 239, 239);
+}
+#button:hover {
+    background-color: rgb(175, 175, 175);
+}
+input {
+    background-color: rgb(247, 239, 239);
+    border-radius: 10px;
+}
+#searchButton{
+    border-radius: 10px;
+}
